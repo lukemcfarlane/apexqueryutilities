@@ -1,5 +1,5 @@
 /*
- * Static methods to provide more flexible query capabilities.
+ * Static methods to extend standard SOQL query capabilities.
  *
  * @author: Luke
  * @date: Dec 2012
