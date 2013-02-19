@@ -32,7 +32,7 @@ public class QueryUtil {
 	public static String getTransformedQueryStr(String query) {
 		String result = '';
 
-		String regex = '^select \\* from ([^\\s]*)(.*)$';
+		String regex = '^select(\\s+)\\*(\\s+)from([^\\s]*)(.*)$';
 		Matcher m = Pattern.compile(regex).matcher(query.toLowerCase());
 		if(m.matches()) {
 			System.debug('Query matched against regular expression successfully');
